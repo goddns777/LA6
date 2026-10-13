@@ -1,0 +1,28 @@
+[
+    {
+        "date": "2026-10-14",
+        "title": "FRAME 테스트 상영",
+        "time": "19:00",
+        "duration": 90,
+        "genre": "SF",
+        "rating": "전체",
+        "price": 15000,
+        "language": "자막",
+        "note": "",
+        "id": "b4bed7321de62116770f4a949b38d340",
+        "poster": "uploads\/b4bed7321de62116770f4a949b38d340.png"
+    },
+    {
+        "date": "2026-10-14",
+        "title": "<script>alert(1)<\/script>",
+        "time": "22:00",
+        "duration": 90,
+        "genre": "SF",
+        "rating": "전체",
+        "price": 15000,
+        "language": "자막",
+        "note": "",
+        "id": "6331ed39c75bb57180f2750676ba1479",
+        "poster": null
+    }
+]

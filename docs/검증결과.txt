@@ -1,0 +1,32 @@
+PHP HTTP integration checks (isolated /tmp/la6-integration copy, PHP 8.4.26, actual multipart/form POST; no repository mutation)
+PASS: missing file warning-free and first-save creation
+PASS: corrupt JSON warning-free and preserve on POST
+PASS: object instead of list rejected safely
+PASS: normal POST persistence, integer fields, PRG GET refresh
+PASS: same-date/time duplicate rejection unchanged storage
+PASS: 10-minute gap rejects 9 minutes and accepts 10
+PASS: past-date rejection unchanged storage
+PASS: aggregate multiple LA5 validation errors
+PASS: array form inputs rejected without PHP warnings
+PASS: adult-time and day-end errors aggregated
+PASS: valid optional image content and server filename
+PASS: fake JPG rejected without storage changes
+PASS: oversized valid image rejected without storage changes
+PASS: empty upload rejected without storage changes
+PASS: literal script title exact in storage and HEX-safe JSON
+PASS: six concurrent identical timestamps save exactly one
+PASS: multiple valid registrations generate unique IDs
+PASS: malformed record schema rejected and preserved
+Total: 18/18 passed. Browser UI/JS checks are separate.
+
+PASS real modal POST with poster
+PASS refresh does not resubmit
+PASS close browser and reopen persistence
+PASS small poster in detail
+PASS client duplicate stops POST
+PASS server duplicate after bypassing JS
+PASS renamed non-image rejected on server
+PASS literal script shown as text without alert
+PASS list, search, filters, light theme
+PASS mobile layout and modal
+PASS no browser console/page errors or script dialogs
